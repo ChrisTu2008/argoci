@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: my-local-app
-          image: my-local-app:v1
+          image: my-local-app:v2
           imagePullPolicy: Never
           ports:
             - containerPort: 80
